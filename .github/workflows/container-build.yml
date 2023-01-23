@@ -11,5 +11,5 @@ jobs:
         with:
           # 下方的name格式为：Docker Hub ID/自定义镜像名称
           name: keyongcheng/pvtaa
-          username: '${{ secrets.DOCKER_USERNAME }}'
+          username: '${{ secrets.DOCKERHUB_USERNAME }}'
           password: '${{ secrets.DOCKERHUB_TOKEN }}'
